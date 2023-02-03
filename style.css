@@ -79,6 +79,13 @@ main {
     height: 41.6rem;
     object-fit: cover;
     border-radius: 0.6rem;
+
+    transition: all 200ms;
+}
+
+.card img:hover {
+    transform: scale(1.1);  
+    opacity: 0.4;
 }
 
 .card h2 {
