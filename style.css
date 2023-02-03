@@ -81,6 +81,8 @@ main {
 .card img {
     height: 41.6rem;
     object-fit: cover;
+    filter: brightness(0.5) saturate(0.5);
+
     border-radius: 0.6rem;
 
     transition: all 200ms;
